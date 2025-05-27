@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1748388319561",
+    "name": "Steven Groves",
+    "email": "Mtdewwolf123233@gmail.com",
+    "password": "Test123!",
+    "settings": {
+      "emailNotifications": true,
+      "gameReminders": true,
+      "newGameAlerts": true,
+      "showProfile": true,
+      "showGameHistory": true
+    },
+    "profile": {}
+  }
+]
