@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import fs from 'fs'
 import path from 'path'
 
-const GAMES_FILE = path.join(process.cwd(), 'games.json')
+const GAMES_FILE = '/tmp/games.json'
 
 function readGames() {
   if (!fs.existsSync(GAMES_FILE)) return []
